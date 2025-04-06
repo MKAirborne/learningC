@@ -3,13 +3,19 @@
 int main(){
     
     if(0){
-        printf("This if is executed!\n");
+        printf("I am zero - so I am not executed!\n");
     }
     if(1){
         printf("This if is executed!\n");
     }
     if(234){
         printf("This if is also executed!\n");
+    }
+    if(2.14){
+        printf("This if is also executed!\n");
+    }
+    if('a'){
+        printf("This character inside if also executed!\n");
     }
     return 0;
 }
