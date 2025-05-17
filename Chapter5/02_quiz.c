@@ -18,7 +18,7 @@ void good_evening(){
 }
 
 int main(){
-    good_morning();
+    good_morning();    // these 3 lines are function calls
     good_afternoon();
     good_evening();    
     return 0;
